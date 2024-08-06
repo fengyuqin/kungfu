@@ -12,7 +12,7 @@
 
 package discover
 
-import "github.com/jqiris/kungfu/v2/treaty"
+import "github.com/fengyuqin/kungfu/v2/treaty"
 
 type MaintainType int
 

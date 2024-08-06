@@ -18,14 +18,14 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/fengyuqin/kungfu/v2/logger"
+	"github.com/fengyuqin/kungfu/v2/packet/nano"
+	"github.com/fengyuqin/kungfu/v2/packet/zinx"
 	"github.com/gorilla/websocket"
-	"github.com/jqiris/kungfu/v2/logger"
-	"github.com/jqiris/kungfu/v2/packet/nano"
-	"github.com/jqiris/kungfu/v2/packet/zinx"
 
-	"github.com/jqiris/kungfu/v2/config"
-	"github.com/jqiris/kungfu/v2/tcpface"
-	"github.com/jqiris/kungfu/v2/treaty"
+	"github.com/fengyuqin/kungfu/v2/config"
+	"github.com/fengyuqin/kungfu/v2/tcpface"
+	"github.com/fengyuqin/kungfu/v2/treaty"
 )
 
 // Server 接口实现，定义一个Server服务类

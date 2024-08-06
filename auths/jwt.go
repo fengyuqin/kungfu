@@ -16,9 +16,9 @@ import (
 	"time"
 
 	jwt "github.com/appleboy/gin-jwt/v2"
+	"github.com/fengyuqin/kungfu/v2/logger"
+	"github.com/fengyuqin/kungfu/v2/utils"
 	"github.com/gin-gonic/gin"
-	"github.com/jqiris/kungfu/v2/logger"
-	"github.com/jqiris/kungfu/v2/utils"
 	"github.com/spf13/viper"
 )
 

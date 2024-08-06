@@ -15,8 +15,8 @@ package mdws
 import (
 	"time"
 
+	"github.com/fengyuqin/kungfu/v2/logger"
 	"github.com/gin-gonic/gin"
-	"github.com/jqiris/kungfu/v2/logger"
 )
 
 type LogFormatterParams struct {

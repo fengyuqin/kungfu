@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jqiris/kungfu/v2/jobs"
+	"github.com/fengyuqin/kungfu/v2/jobs"
 )
 
 func TestNumberMap(t *testing.T) {

@@ -13,7 +13,7 @@
 package rpc
 
 import (
-	"github.com/jqiris/kungfu/v2/treaty"
+	"github.com/fengyuqin/kungfu/v2/treaty"
 )
 
 // ServerQueue base queue

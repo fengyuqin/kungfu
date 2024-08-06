@@ -23,9 +23,9 @@ import (
 
 	"stathat.com/c/consistent"
 
-	"github.com/jqiris/kungfu/v2/logger"
-	"github.com/jqiris/kungfu/v2/treaty"
-	"github.com/jqiris/kungfu/v2/utils"
+	"github.com/fengyuqin/kungfu/v2/logger"
+	"github.com/fengyuqin/kungfu/v2/treaty"
+	"github.com/fengyuqin/kungfu/v2/utils"
 	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
 	clientv3 "go.etcd.io/etcd/client/v3"
 )

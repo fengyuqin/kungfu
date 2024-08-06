@@ -18,8 +18,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/jqiris/kungfu/v2/config"
-	"github.com/jqiris/kungfu/v2/logger"
+	"github.com/fengyuqin/kungfu/v2/config"
+	"github.com/fengyuqin/kungfu/v2/logger"
 	cdn "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/cdn/v20180606"
 	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common"
 	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/errors"

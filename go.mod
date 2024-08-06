@@ -1,4 +1,4 @@
-module github.com/jqiris/kungfu/v2
+module github.com/fengyuqin/kungfu/v2
 
 go 1.20
 

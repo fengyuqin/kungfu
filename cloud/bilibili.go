@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jqiris/kungfu/v2/logger"
-	"github.com/jqiris/kungfu/v2/utils"
+	"github.com/fengyuqin/kungfu/v2/logger"
+	"github.com/fengyuqin/kungfu/v2/utils"
 )
 
 type BilibiliConfig struct {

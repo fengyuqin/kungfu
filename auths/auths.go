@@ -17,7 +17,7 @@ import (
 	"errors"
 
 	"github.com/farmerx/gorsa"
-	"github.com/jqiris/kungfu/v2/serialize"
+	"github.com/fengyuqin/kungfu/v2/serialize"
 	"github.com/wumansgy/goEncrypt"
 )
 

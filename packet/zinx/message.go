@@ -14,7 +14,7 @@ package zinx
 
 import (
 	"fmt"
-	"github.com/jqiris/kungfu/v2/utils"
+	"github.com/fengyuqin/kungfu/v2/utils"
 )
 
 // Message represents a unmarshaled message or a message which to be marshaled

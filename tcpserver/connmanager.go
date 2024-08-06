@@ -16,9 +16,9 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/jqiris/kungfu/v2/logger"
+	"github.com/fengyuqin/kungfu/v2/logger"
 
-	tcpface "github.com/jqiris/kungfu/v2/tcpface"
+	tcpface "github.com/fengyuqin/kungfu/v2/tcpface"
 )
 
 type ConnManager struct {

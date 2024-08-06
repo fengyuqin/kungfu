@@ -16,9 +16,9 @@ import (
 	"encoding/json"
 	"io/ioutil"
 
-	"github.com/jqiris/kungfu/v2/logger"
+	"github.com/fengyuqin/kungfu/v2/logger"
 
-	"github.com/jqiris/kungfu/v2/treaty"
+	"github.com/fengyuqin/kungfu/v2/treaty"
 )
 
 var (

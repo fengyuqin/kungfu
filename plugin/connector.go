@@ -13,10 +13,10 @@
 package plugin
 
 import (
-	"github.com/jqiris/kungfu/v2/rpc"
-	"github.com/jqiris/kungfu/v2/tcpface"
-	"github.com/jqiris/kungfu/v2/tcpserver"
-	"github.com/jqiris/kungfu/v2/utils"
+	"github.com/fengyuqin/kungfu/v2/rpc"
+	"github.com/fengyuqin/kungfu/v2/tcpface"
+	"github.com/fengyuqin/kungfu/v2/tcpserver"
+	"github.com/fengyuqin/kungfu/v2/utils"
 )
 
 type ServerConnector struct {

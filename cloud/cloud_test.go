@@ -16,7 +16,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/jqiris/kungfu/v2/config"
+	"github.com/fengyuqin/kungfu/v2/config"
 	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/errors"
 )
 

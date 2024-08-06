@@ -14,8 +14,8 @@ package auths
 
 import (
 	"github.com/farmerx/gorsa"
-	"github.com/jqiris/kungfu/v2/logger"
-	"github.com/jqiris/kungfu/v2/serialize"
+	"github.com/fengyuqin/kungfu/v2/logger"
+	"github.com/fengyuqin/kungfu/v2/serialize"
 )
 
 type Option func(e *Encipherer)

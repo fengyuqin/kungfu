@@ -16,11 +16,11 @@ import (
 	"context"
 	"time"
 
+	"github.com/fengyuqin/kungfu/v2/config"
+	"github.com/fengyuqin/kungfu/v2/logger"
 	"github.com/go-redis/redis/v8"
 	"github.com/go-redsync/redsync/v4"
 	"github.com/golang/protobuf/proto"
-	"github.com/jqiris/kungfu/v2/config"
-	"github.com/jqiris/kungfu/v2/logger"
 )
 
 var (

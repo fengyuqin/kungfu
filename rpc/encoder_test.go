@@ -17,9 +17,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jqiris/kungfu/v2/logger"
-	"github.com/jqiris/kungfu/v2/serialize"
-	"github.com/jqiris/kungfu/v2/treaty"
+	"github.com/fengyuqin/kungfu/v2/logger"
+	"github.com/fengyuqin/kungfu/v2/serialize"
+	"github.com/fengyuqin/kungfu/v2/treaty"
 )
 
 func TestRpcEncoder(t *testing.T) {

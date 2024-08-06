@@ -14,13 +14,13 @@ package zinx
 
 import (
 	"fmt"
-	"github.com/jqiris/kungfu/v2/tcpface"
+	"github.com/fengyuqin/kungfu/v2/tcpface"
 	"strconv"
 	"time"
 
-	"github.com/jqiris/kungfu/v2/config"
-	"github.com/jqiris/kungfu/v2/logger"
-	"github.com/jqiris/kungfu/v2/packet"
+	"github.com/fengyuqin/kungfu/v2/config"
+	"github.com/fengyuqin/kungfu/v2/logger"
+	"github.com/fengyuqin/kungfu/v2/packet"
 )
 
 type MsgHandle struct {

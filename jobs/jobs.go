@@ -17,10 +17,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/fengyuqin/kungfu/v2/ds"
+	"github.com/fengyuqin/kungfu/v2/logger"
+	"github.com/fengyuqin/kungfu/v2/utils"
 	"github.com/google/uuid"
-	"github.com/jqiris/kungfu/v2/ds"
-	"github.com/jqiris/kungfu/v2/logger"
-	"github.com/jqiris/kungfu/v2/utils"
 )
 
 var (

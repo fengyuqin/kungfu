@@ -15,10 +15,10 @@ package rpc
 import (
 	"time"
 
-	"github.com/jqiris/kungfu/v2/config"
-	"github.com/jqiris/kungfu/v2/discover"
-	"github.com/jqiris/kungfu/v2/logger"
-	"github.com/jqiris/kungfu/v2/treaty"
+	"github.com/fengyuqin/kungfu/v2/config"
+	"github.com/fengyuqin/kungfu/v2/discover"
+	"github.com/fengyuqin/kungfu/v2/logger"
+	"github.com/fengyuqin/kungfu/v2/treaty"
 	"github.com/nats-io/nats.go"
 )
 

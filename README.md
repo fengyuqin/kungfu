@@ -8,7 +8,7 @@
 - 运行nats服务- cd deploy/nats && docker-compose up -d
 
 ## 安装容器部署工具 
-- go install github.com/jqiris/kungfu/v2@v2.10.8
+- go install github.com/fengyuqin/kungfu/v2@v2.10.8
 
 ## 常用命令
 - kungfu build x1 ...x2  # 构建docker服务,会根据不同配置文件构建对应服务，例如account,hall等

@@ -15,7 +15,7 @@ package nano
 import (
 	"bytes"
 	"errors"
-	"github.com/jqiris/kungfu/v2/utils"
+	"github.com/fengyuqin/kungfu/v2/utils"
 )
 
 // Codec constants.

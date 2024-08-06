@@ -15,9 +15,9 @@ package tests
 import (
 	"context"
 	"fmt"
+	"github.com/fengyuqin/kungfu/v2/logger"
+	"github.com/fengyuqin/kungfu/v2/stores"
 	"github.com/go-redis/redis/v8"
-	"github.com/jqiris/kungfu/v2/logger"
-	"github.com/jqiris/kungfu/v2/stores"
 	"testing"
 	"time"
 )

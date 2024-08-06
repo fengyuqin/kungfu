@@ -18,10 +18,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jqiris/kungfu/v2/logger"
-	"github.com/jqiris/kungfu/v2/rpc"
-	"github.com/jqiris/kungfu/v2/stores"
-	"github.com/jqiris/kungfu/v2/utils"
+	"github.com/fengyuqin/kungfu/v2/logger"
+	"github.com/fengyuqin/kungfu/v2/rpc"
+	"github.com/fengyuqin/kungfu/v2/stores"
+	"github.com/fengyuqin/kungfu/v2/utils"
 )
 
 type DataItem struct {

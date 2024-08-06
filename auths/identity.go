@@ -16,9 +16,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jqiris/kungfu/v2/logger"
-	"github.com/jqiris/kungfu/v2/stores"
-	"github.com/jqiris/kungfu/v2/utils"
+	"github.com/fengyuqin/kungfu/v2/logger"
+	"github.com/fengyuqin/kungfu/v2/stores"
+	"github.com/fengyuqin/kungfu/v2/utils"
 )
 
 type IdSourcer func(key string) (int64, error)

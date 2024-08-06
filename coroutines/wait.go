@@ -15,7 +15,7 @@ package coroutines
 import (
 	"sync"
 
-	"github.com/jqiris/kungfu/v2/utils"
+	"github.com/fengyuqin/kungfu/v2/utils"
 )
 
 type CoroutineHandler func()

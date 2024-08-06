@@ -13,7 +13,7 @@
 package validator
 
 import (
-	"github.com/jqiris/kungfu/v2/logger"
+	"github.com/fengyuqin/kungfu/v2/logger"
 )
 
 type ValidateItem struct {

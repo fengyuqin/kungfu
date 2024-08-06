@@ -14,7 +14,7 @@ package nano
 
 import (
 	"encoding/json"
-	"github.com/jqiris/kungfu/v2/logger"
+	"github.com/fengyuqin/kungfu/v2/logger"
 	"io/ioutil"
 )
 

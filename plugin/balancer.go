@@ -18,14 +18,14 @@ import (
 	"net/http"
 	"net/url"
 
+	"github.com/fengyuqin/kungfu/v2/discover"
+	"github.com/fengyuqin/kungfu/v2/logger"
+	"github.com/fengyuqin/kungfu/v2/rpc"
+	"github.com/fengyuqin/kungfu/v2/serialize"
+	"github.com/fengyuqin/kungfu/v2/session"
+	"github.com/fengyuqin/kungfu/v2/treaty"
+	"github.com/fengyuqin/kungfu/v2/utils"
 	"github.com/golang/protobuf/proto"
-	"github.com/jqiris/kungfu/v2/discover"
-	"github.com/jqiris/kungfu/v2/logger"
-	"github.com/jqiris/kungfu/v2/rpc"
-	"github.com/jqiris/kungfu/v2/serialize"
-	"github.com/jqiris/kungfu/v2/session"
-	"github.com/jqiris/kungfu/v2/treaty"
-	"github.com/jqiris/kungfu/v2/utils"
 )
 
 type ServerBalancer struct {

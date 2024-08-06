@@ -13,7 +13,7 @@
 package zinx
 
 import (
-	"github.com/jqiris/kungfu/v2/tcpface"
+	"github.com/fengyuqin/kungfu/v2/tcpface"
 )
 
 type Request struct {

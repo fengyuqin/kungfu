@@ -14,14 +14,14 @@ package tests
 
 import (
 	"fmt"
+	"github.com/fengyuqin/kungfu/v2/logger"
+	"github.com/fengyuqin/kungfu/v2/utils"
 	"github.com/go-redis/redis/v8"
-	"github.com/jqiris/kungfu/v2/logger"
-	"github.com/jqiris/kungfu/v2/utils"
 	"math/rand"
 	"testing"
 	"time"
 
-	"github.com/jqiris/kungfu/v2/stores"
+	"github.com/fengyuqin/kungfu/v2/stores"
 )
 
 func TestStores(t *testing.T) {

@@ -36,7 +36,7 @@ func TestEventType(t *testing.T) {
 }
 
 func TestPathLocation(t *testing.T) {
-	a := "H:/go/pkg/mod/github.com/jqiris/kungfu/v2@v0.0.0-20210812091450-7f736d7f026f/rpc/nats.go"
+	a := "H:/go/pkg/mod/github.com/fengyuqin/kungfu/v2@v0.0.0-20210812091450-7f736d7f026f/rpc/nats.go"
 	b := pathA(a)
 	fmt.Println(b)
 	c := pathB(a)
@@ -69,20 +69,20 @@ func pathC(a string) string {
 }
 
 func BenchmarkPatha(b *testing.B) {
-	a := "H:/go/pkg/mod/github.com/jqiris/kungfu/v2@v0.0.0-20210812091450-7f736d7f026f/rpc/nats.go"
+	a := "H:/go/pkg/mod/github.com/fengyuqin/kungfu/v2@v0.0.0-20210812091450-7f736d7f026f/rpc/nats.go"
 	for i := 0; i < b.N; i++ {
 		pathA(a)
 	}
 }
 
 func BenchmarkPathb(b *testing.B) {
-	a := "H:/go/pkg/mod/github.com/jqiris/kungfu/v2@v0.0.0-20210812091450-7f736d7f026f/rpc/nats.go"
+	a := "H:/go/pkg/mod/github.com/fengyuqin/kungfu/v2@v0.0.0-20210812091450-7f736d7f026f/rpc/nats.go"
 	for i := 0; i < b.N; i++ {
 		pathB(a)
 	}
 }
 func BenchmarkPathc(b *testing.B) {
-	a := "H:/go/pkg/mod/github.com/jqiris/kungfu/v2@v0.0.0-20210812091450-7f736d7f026f/rpc/nats.go"
+	a := "H:/go/pkg/mod/github.com/fengyuqin/kungfu/v2@v0.0.0-20210812091450-7f736d7f026f/rpc/nats.go"
 	for i := 0; i < b.N; i++ {
 		pathC(a)
 	}

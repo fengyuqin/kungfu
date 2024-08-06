@@ -20,13 +20,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jqiris/kungfu/v2/component"
-	"github.com/jqiris/kungfu/v2/serialize"
-	"github.com/jqiris/kungfu/v2/tcpface"
+	"github.com/fengyuqin/kungfu/v2/component"
+	"github.com/fengyuqin/kungfu/v2/serialize"
+	"github.com/fengyuqin/kungfu/v2/tcpface"
 
-	"github.com/jqiris/kungfu/v2/config"
-	"github.com/jqiris/kungfu/v2/logger"
-	"github.com/jqiris/kungfu/v2/packet"
+	"github.com/fengyuqin/kungfu/v2/config"
+	"github.com/fengyuqin/kungfu/v2/logger"
+	"github.com/fengyuqin/kungfu/v2/packet"
 )
 
 var (

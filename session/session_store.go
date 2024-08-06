@@ -13,10 +13,10 @@
 package session
 
 import (
-	"github.com/jqiris/kungfu/v2/logger"
-	"github.com/jqiris/kungfu/v2/stores"
-	"github.com/jqiris/kungfu/v2/treaty"
-	"github.com/jqiris/kungfu/v2/utils"
+	"github.com/fengyuqin/kungfu/v2/logger"
+	"github.com/fengyuqin/kungfu/v2/stores"
+	"github.com/fengyuqin/kungfu/v2/treaty"
+	"github.com/fengyuqin/kungfu/v2/utils"
 )
 
 var (

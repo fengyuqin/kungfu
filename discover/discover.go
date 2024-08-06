@@ -15,13 +15,13 @@ package discover
 import (
 	"time"
 
-	"github.com/jqiris/kungfu/v2/config"
-	"github.com/jqiris/kungfu/v2/logger"
+	"github.com/fengyuqin/kungfu/v2/config"
+	"github.com/fengyuqin/kungfu/v2/logger"
 	clientv3 "go.etcd.io/etcd/client/v3"
 
 	"stathat.com/c/consistent"
 
-	"github.com/jqiris/kungfu/v2/treaty"
+	"github.com/fengyuqin/kungfu/v2/treaty"
 )
 
 var (
@@ -45,7 +45,7 @@ func InitDiscoverer(cfg config.DiscoverConf) {
 type ServerEventHandler func(ev *clientv3.Event, server *treaty.Server)
 type DataEventHandler func(ev *clientv3.Event)
 
-//Discoverer find service role
+// Discoverer find service role
 type Discoverer interface {
 	Register(server *treaty.Server) error                                                 //注册服务器
 	UnRegister(server *treaty.Server) error                                               //注册服务器

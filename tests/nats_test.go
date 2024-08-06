@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jqiris/kungfu/v2/config"
+	"github.com/fengyuqin/kungfu/v2/config"
 	"github.com/nats-io/nats.go"
 )
 

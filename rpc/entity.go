@@ -12,7 +12,7 @@
 
 package rpc
 
-import "github.com/jqiris/kungfu/v2/treaty"
+import "github.com/fengyuqin/kungfu/v2/treaty"
 
 type ServerCreator func(s *treaty.Server) (ServerEntity, error)
 

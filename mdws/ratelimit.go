@@ -16,8 +16,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/fengyuqin/kungfu/v2/logger"
 	"github.com/gin-gonic/gin"
-	"github.com/jqiris/kungfu/v2/logger"
 	"github.com/spf13/viper"
 	"go.uber.org/ratelimit"
 )

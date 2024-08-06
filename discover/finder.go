@@ -16,8 +16,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/jqiris/kungfu/v2/logger"
-	"github.com/jqiris/kungfu/v2/treaty"
+	"github.com/fengyuqin/kungfu/v2/logger"
+	"github.com/fengyuqin/kungfu/v2/treaty"
 	clientv3 "go.etcd.io/etcd/client/v3"
 )
 

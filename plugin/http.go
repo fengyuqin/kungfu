@@ -15,8 +15,8 @@ package plugin
 import (
 	"fmt"
 
-	"github.com/jqiris/kungfu/v2/rpc"
-	"github.com/jqiris/kungfu/v2/utils"
+	"github.com/fengyuqin/kungfu/v2/rpc"
+	"github.com/fengyuqin/kungfu/v2/utils"
 )
 
 type ServerHttp struct {

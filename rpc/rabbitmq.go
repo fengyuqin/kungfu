@@ -20,13 +20,13 @@ import (
 	"sync"
 	"time"
 
+	"github.com/fengyuqin/kungfu/v2/discover"
+	"github.com/fengyuqin/kungfu/v2/logger"
+	"github.com/fengyuqin/kungfu/v2/pool"
+	"github.com/fengyuqin/kungfu/v2/serialize"
+	"github.com/fengyuqin/kungfu/v2/treaty"
+	"github.com/fengyuqin/kungfu/v2/utils"
 	"github.com/google/uuid"
-	"github.com/jqiris/kungfu/v2/discover"
-	"github.com/jqiris/kungfu/v2/logger"
-	"github.com/jqiris/kungfu/v2/pool"
-	"github.com/jqiris/kungfu/v2/serialize"
-	"github.com/jqiris/kungfu/v2/treaty"
-	"github.com/jqiris/kungfu/v2/utils"
 	"github.com/streadway/amqp"
 )
 

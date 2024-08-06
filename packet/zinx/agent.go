@@ -19,10 +19,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/jqiris/kungfu/v2/config"
-	"github.com/jqiris/kungfu/v2/logger"
-	"github.com/jqiris/kungfu/v2/packet"
-	"github.com/jqiris/kungfu/v2/tcpface"
+	"github.com/fengyuqin/kungfu/v2/config"
+	"github.com/fengyuqin/kungfu/v2/logger"
+	"github.com/fengyuqin/kungfu/v2/packet"
+	"github.com/fengyuqin/kungfu/v2/tcpface"
 )
 
 type Agent struct {
@@ -65,7 +65,7 @@ func (a *Agent) GetConn() net.Conn {
 }
 
 /*
-	写消息Goroutine， 用户将数据发送给客户端
+写消息Goroutine， 用户将数据发送给客户端
 */
 func (a *Agent) StartWriter() {
 	logger.Info("[Writer Goroutine is running]")
@@ -130,7 +130,7 @@ func (a *Agent) setStatus(state int32) {
 	atomic.StoreInt32(&a.state, state)
 }
 
-//SendMsg 直接将Message数据发送数据给远程的TCP客户端
+// SendMsg 直接将Message数据发送数据给远程的TCP客户端
 func (a *Agent) SendMsg(msgID int32, data []byte) error {
 	a.RLock()
 	defer a.RUnlock()
@@ -149,7 +149,7 @@ func (a *Agent) SendMsg(msgID int32, data []byte) error {
 	return nil
 }
 
-//SendBuffMsg  发生BuffMsg
+// SendBuffMsg  发生BuffMsg
 func (a *Agent) SendBuffMsg(msgID int32, data []byte) error {
 	a.RLock()
 	defer a.RUnlock()
